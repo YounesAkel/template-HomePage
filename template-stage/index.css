@@ -1,0 +1,130 @@
+  body{margin:0; padding:0;} 
+/************************************header style*********************************************************************/
+header{height: 70px ;}
+nav{height: 50px; width: 740px; position: relative; left: 760px;}
+ul{height: 40px; display: flex; justify-content: center;}
+nav ul li a{text-decoration: none; display: block; }
+nav ul li{float:left;  list-style: none;   margin-left: 50px; padding-top: 5px;}
+#contact_us{border: 1px solid black;  font-size: 15px;  border-radius: 5px;  height: 30px;  width: 100px; }
+#contact_us>a{padding: 5px; padding-left: 15px;}
+#logo{ height: 60px; width: 50%; position: absolute;}/*les styles ici sont appliqué juste sur la balise div*/
+#logo img{  width: 25%; margin-top: 10px; margin-left: 50px;}/*les styles ici sont appliqué sur l'image*/
+#A a{color: black;}/*on peut donné aussi le méme id au differents balises*/
+/*********************************section1 style*********************************************/
+#section1{height: 700px;}
+#image1 {    float: right; margin-top:9px; }/*placcer l'image1 a droite puis modifier la largeur*/
+ #text1 { float: left; width: 40%;margin-top:50px; margin-left: 100px;  }/*placer le texte a gauche puis modifier la largeur */
+#num{border-radius: 20px; border: none; width: 50%; height: 30px; background-color: rgb(159, 217, 224);}
+#titr1{font-size: 50px;}
+#titr2{margin-bottom: 50px; font-size: 25px;}
+#buttom{margin-top: 50px; width: 500px;}
+#bot1{ text-decoration: none; color: rgb(87, 78, 78); padding: 10px 50px; margin-left: 5px; margin-top: 100px; width: 25%; border-radius: 20px;background-color: rgb(159, 217, 224);   }
+#bot2{ text-decoration: none;  color: cornsilk; padding:10px 50px; margin-left: 10px; margin-top: 100px; border-radius: 20px;background-color:blue;}
+#titr3{font-size: 50px; font-weight: normal; }
+/*************************************section2 style**************************/
+#section2{ height: 500px;  }
+#tr1{width: 60px; margin-top: 0; }
+#mini_titr_section2{font-weight:normal ; padding-left: 42%; font-family: Arial, Helvetica, sans-serif; }
+#titr3{padding-left: 45%;  margin-bottom: 10px;}
+#articlgroupe1{ margin-left: 100px;margin-right: 100px; margin-top: 50px; height: 300px; box-shadow: -5px -5px 8px #ddd, 5px 5px 8px #ddd;}
+#article1{float: left; width: 25%; margin-right: 100px; margin-left: 50px; margin-top: 50px;}
+#article2{ float:left; width: 25%; margin-right: 100px; margin-top: 23px;margin-top: 70px;}
+#article3{float: left; width: 25%; margin-top: 50px;}
+#figure{padding-left: 100px;}
+#titr4{padding-left: 100px;}
+#titr5{padding-left: 100px;}
+#titr6{padding-left: 100px;}
+#parag1{ text-align: center;}
+/***************************section3 style*************************************************/
+#section3{height: 350px; background-color: #f9f7f7; margin-top:10px;padding-top: 10px;}
+#tr2{width: 60px; margin-top: 0; }
+#titr7{padding-left:610px ; font-size: 50px; font-weight: normal; margin-bottom: 10px;}
+#mini_titr_section3{font-weight:normal ; padding-left: 45%; font-family: Arial, Helvetica, sans-serif; }
+#articlegroupe2{height: 130px; width: 100%;}
+#article4{width: 25%; float: left; margin-left: 200px;}
+#article5{width: 25%;float: left;}
+#article6{width: 25%;float: left; margin-left: 50px;}
+#titr8{font-family: Arial, Helvetica, sans-serif;}
+#titr9{font-family: Arial, Helvetica, sans-serif;}
+#titr10{font-family: Arial, Helvetica, sans-serif;}
+/*********************************section4 style***********************************************************************/
+#section4{height: 430px; display:flex; align-items: center; justify-content: center;  }
+#call_to_action{background: url(img/cta1.png),url(img/cta2.png),#3f72af; background-repeat: no-repeat,no-repeat,no-repeat; 
+    background-position: bottom right,top left; background-size: 200px,290px,cover; height: 300px; width: 550px; position:relative;}
+#color_overlay{width:inherit;  height: inherit; background:#3f72afde; position:absolute;  color: cornsilk; }     
+#parag3{text-align: center;  width: 85%;  font-weight: normal; margin-left: 70px;}
+#titr11{text-align: center; padding-top: 30px;  font-family: Arial, Helvetica, sans-serif; font-size: 30px;}
+#learn_more{ border-radius: 20px; background-color: #112d4e; position:relative; top: 40px;   text-decoration: none;
+     padding: 10px 30px; margin-left: 210px; color: cornsilk;  font-family: Arial, Helvetica, sans-serif; }
+/******************************************section5 style*************************/
+#section5{height:300px; }
+#compare{width: 100%; height: 200px; background:url(img/emp1.png),url(img/emp2.png),#3f72af; background-repeat: no-repeat,no-repeat,no-repeat; 
+    background-position: bottom right,top left; background-size: 200px,290px,cover; position: relative;}
+#overlay{    height:inherit;  width:inherit; background-color: #3f72afde; position: absolute;}
+label{color:white;}
+#num_of_employement,#for_the_payroll{ border:none; border-radius:20px;background-color:white; height: 30px; width: 200px;}
+#overlay div { margin-top:50px; float: left; }
+#compare_plan{text-decoration: none;  color: white; border: 1px solid white; border-radius: 20px; padding: 10px 60px; display:block; margin-top: 30px; margin-left:50px;}
+#noe{margin-left:400px;}
+#ftp{margin-left:50px;}
+/***************************************************section6 style***********************************************************************/
+#section6{height:600px;}
+#mini_titr_section6{font-weight:normal ; padding-left: 42%;font-family: Arial, Helvetica, sans-serif;}
+#titr12{padding-left: 46%; font-weight: normal;  margin-bottom: 10px; font-size: 30px;}
+#tr3{margin-left: 700px; width:35px; margin-top: 0;}
+#articlegroup3{display: flex; flex-direction: row; justify-content: center;}
+#article7{box-shadow: -5px -5px 8px #ddd, 5px 5px 8px #ddd; width: 20%; margin-left: 50px; height: 400px; }
+#article8{box-shadow: -5px -5px 8px #ddd, 5px 5px 8px #ddd; width: 20%; margin-left:50px; height: 400px;}
+#tier1{text-align: center; background-color: #3f72af; position: relative; top: 15px; padding: 10px; color:white; font-family: Arial, Helvetica, sans-serif;}
+#price1{text-align:center; color:#3f72af; position:relative;top:15px; font-family: Arial, Helvetica, sans-serif; }
+#tr4{width:200px; margin-top: 45px; }
+#option1{text-align:center; font-weight:normal;font-family: Arial, Helvetica, sans-serif;}
+#choose1{text-decoration: none; color:white; border:none; border-radius: 20px; padding:10px 60px; background-color: #3f72af; position:relative; left:70px; top: 13px;}
+#tier2{text-align: center; background-color: #112d4e; position: relative; top: 15px; padding: 10px;color:white; padding:10px;font-family: Arial, Helvetica, sans-serif;}
+#price2{text-align:center; color:#3f72af; position:relative;top:15px; font-family: Arial, Helvetica, sans-serif; }
+#tr5{width:200px; margin-top: 45px; }
+#option2{text-align:center; font-weight:normal;font-family: Arial, Helvetica, sans-serif;}
+#choose2{text-decoration: none; color:white; border:none; border-radius: 20px; padding:10px 60px; background-color: #112d4e; position:relative; left:70px; top: 13px;}
+/***********************************************************section7 style****************************************************************************/
+#section7{height: 350px;}
+#mini_titr_section7{font-weight:normal ; padding-left: 30%;font-family: Arial, Helvetica, sans-serif;}
+#titr13{padding-left: 44%; font-weight: normal;  margin-bottom: 10px; font-size: 30px;}
+#tr6{margin-left: 700px; width:35px; margin-top: 0;}
+#partner{display: flex; flex-direction: row; justify-content: center;}
+#partner img{margin-left: 80px; width:10%; height: 100px;}
+/***********************************************************section8 style****************************************************************************/
+#section8{height: 300px;}
+#mini_titr_section8{font-weight:normal ; padding-left: 35%;font-family: Arial, Helvetica, sans-serif;}
+#titr14{padding-left: 44%; font-weight: normal;  margin-bottom: 10px; font-size: 30px;}
+#tr7{margin-left:690px; width:35px; margin-top: 0;}
+#opinion,#opinion_name{text-align:center;}
+#opinion{font-weight: bold;}
+/***********************************************************section9 style****************************************************************************/
+#section9{height: 500px;}
+#mini_titr_section9{font-weight:normal ; padding-left: 35%;font-family: Arial, Helvetica, sans-serif;}
+#titr15{padding-left: 44%; font-weight: normal;  margin-bottom: 10px; font-size: 30px;}
+#tr8{margin-left:670px; width:35px; margin-top: 0;}
+#articlegroupe4{display: flex; flex-direction:row; padding: 10px 40px; }
+ #parag4{text-align: left; width: 95%;} 
+#titr16{font-weight: normal;}
+#question{ border-radius: 20px; background-color: #112d4e; position:relative; top: 40px;   text-decoration: none;
+    padding: 10px 30px; margin-left: 650px; color: cornsilk;  font-family: Arial, Helvetica, sans-serif; }
+/***********************************************************section10 style****************************************************************************/
+#section10{height: 410px;} 
+iframe{ width:100%; height:450px; border: none;  }
+ #contacts{width:25%;  height:65%; background-color: #ddd; position: absolute; left: 400px; top:100px;border-radius: 10px;box-shadow: -5px -5px 8px #ddd, 5px 5px 8px #ddd;  text-align: left; padding-left:50px;}
+ #map{position: relative;}
+#titr_contact{margin-left:20px; font-size: 25px; margin-top: 50px;}
+#contacts p{margin-top: 0;}
+#contacts h5{margin-bottom: 0;}
+/***********************************************************footer style****************************************************************************/
+footer{height: 300px;  background-color: #112d4e; }
+#footer_content{display: flex;}
+#parag_footer{font-weight: normal; text-align: left;}
+#logo_footer{width: 40%;}
+#m_cash{width:25%}
+#footer div{margin-left:100px; color: #ddd; margin-top:50px;}
+#facebook,#linkdin{width: 30px;}
+#linkdin{margin-left: 10px;}
+#adresse{color:white; text-align:center;}
+#tr9{width: 90%;}
